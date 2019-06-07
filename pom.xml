@@ -198,6 +198,7 @@
         <module>collectors/feature/versionone</module>
         <module>collectors/feature/gitlab</module>
         <module>collectors/misc/chat-ops</module>
+        <module>collectors/newCollector/mocha</module>
         <module>collectors/performance/appdynamics</module>
         <module>collectors/scm/bitbucket</module>
         <module>collectors/scm/github</module>
@@ -246,6 +247,7 @@
         <module>collectors/feature/versionone</module>
         <module>collectors/feature/gitlab</module>
         <module>collectors/misc/chat-ops</module>
+        <module>collectors/newCollector/moca</module>
         <module>collectors/performance/appdynamics</module>
         <module>collectors/scm/bitbucket</module>
         <module>collectors/scm/github</module>
