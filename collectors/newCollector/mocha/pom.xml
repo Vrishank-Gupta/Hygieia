@@ -4,12 +4,12 @@
 
   <name>${project.groupId}:${project.artifactId}</name>
   <description>
-    Github Collector Microservice collecting stats from Github
+    Mocha Chaai collector for Node Js based code testing 
   </description>
   <url>https://github.com/capitalone/Hygieia</url>
   <packaging>jar</packaging>
 
-  <artifactId>github-scm-collector</artifactId>
+  <artifactId>mocha-chai-collector</artifactId>
 
   <parent>
     <groupId>com.capitalone.dashboard</groupId>
@@ -45,7 +45,7 @@
         <artifactId>docker-maven-plugin</artifactId>
         <configuration>
           <skipDockerBuild>false</skipDockerBuild>
-          <imageName>hygieia-github-scm-collector</imageName>
+          <imageName>hygieia-mocha-chai-collector</imageName>
           <dockerDirectory>${project.basedir}/docker</dockerDirectory>
           <resources>
             <resource>
